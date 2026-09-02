@@ -1,0 +1,75 @@
+# תור ההגשות
+#
+# שביל שתושב שולח נוחת ב-data/pending.json ונשאר שם עד שעורך מאשר אותו.
+# עד עכשיו לא הייתה שום התראה: שכבת "ממתינים לאישור" מוצגת רק למי שפותח את
+# האפליקציה עם עריכה דלוקה, ולכן ההגשה הראשונה של הפרויקט שכבה בתור יומיים
+# בלי שאיש ידע עליה. הגשה שנבלעת בשקט היא גם ההגשה האחרונה של אותו אדם.
+#
+# הזרז העיקרי הוא הדחיפה עצמה. האפליקציה כותבת לתור דרך ה-API של גיטהאב עם
+# מפתח אישי, וכתיבה כזו מייצרת push אמיתי, אז ההתראה יוצאת תוך דקה מההגשה.
+# הריצה היומית היא רשת ביטחון למקרה שאירוע push התפספס.
+#
+# הכל נכתב ל-issue אחד שנפתח כשהתור מתמלא ונסגר מעצמו כשהוא מתרוקן, כדי שלא
+# ייערם issue לכל הגשה. גוף ה-issue נבנה ב-queue_report.py ולא כאן, כדי שאפשר
+# יהיה להריץ אותו מקומית ולראות מה ייצא לפני שהוא רץ בענן.
+
+name: תור ההגשות
+
+on:
+  push:
+    paths:
+      - 'data/pending.json'
+  schedule:
+    # 05:00 UTC, כלומר שמונה בבוקר בארץ
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: קריאת התור
+        id: queue
+        run: python3 .github/workflows/queue_report.py data/pending.json body.md
+
+      - name: פתיחה, עדכון או סגירה של ה-issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COUNT: ${{ steps.queue.outputs.count }}
+          TITLE: ${{ steps.queue.outputs.title }}
+        run: |
+          set -euo pipefail
+
+          # התווית היא איך שמוצאים את ה-issue הפתוח בריצה הבאה. --force הופך
+          # את היצירה לחסרת תופעות לוואי גם כשהתווית כבר קיימת.
+          gh label create queue --color FBCA04 \
+            --description "הגשות שממתינות לאישור" --force
+
+          open=$(gh issue list --label queue --state open \
+                   --json number --jq '.[0].number // empty')
+
+          if [ "$COUNT" -eq 0 ]; then
+            if [ -n "$open" ]; then
+              gh issue comment "$open" --body "התור התרוקן. כל ההגשות טופלו."
+              gh issue close "$open"
+              echo "נסגר issue #$open"
+            else
+              echo "התור ריק ואין issue פתוח, אין מה לעשות"
+            fi
+            exit 0
+          fi
+
+          if [ -n "$open" ]; then
+            gh issue edit "$open" --title "$TITLE" --body-file body.md
+            echo "עודכן issue #$open"
+          else
+            gh issue create --title "$TITLE" --body-file body.md \
+              --label queue --assignee orimosenzon
+            echo "נפתח issue חדש"
+          fi
