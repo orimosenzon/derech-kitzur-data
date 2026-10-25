@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-25T15:58:10Z",
+ "updated": "2026-10-25T15:58:25Z",
  "source": "https://2026.hanadiv.org/",
  "name": "אירועי דרך הנדיב 2026",
  "festival": {
@@ -1113,6 +1113,12 @@
      "full": "https://api.hanadiv.org/images/94d242dc71bd87428f3be271e9f8a5dc4d4d108b6c710bd6605c8d62fff5452b.webp"
     }
    ],
+   "geo": {
+    "lat": 32.475541,
+    "lng": 34.97373,
+    "source": "osm",
+    "spread": true
+   },
    "address": "מעלה פינת רבי עקיבא 4 · מפגש ברחבת בית יד לבנים, תהלוכה עד לאמפי בצד רבי עקיבא והמשך הערב שם |",
    "access": "נגיש · בחוץ",
    "seats": 120
@@ -4791,9 +4797,10 @@
     }
    ],
    "geo": {
-    "lat": 32.47543,
+    "lat": 32.475319,
     "lng": 34.97373,
-    "source": "osm"
+    "source": "osm",
+    "spread": true
    },
    "address": "הדקלים 90 · רחבת יד לבנים מול בניין המועצה",
    "access": "נגיש · יש חניה · בחוץ",
@@ -7608,7 +7615,7 @@
  "stats": {
   "events": 247,
   "venues": 90,
-  "placed": 238,
+  "placed": 239,
   "photos": 287
  }
 }
