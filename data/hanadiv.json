@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-27T17:44:25Z",
+ "updated": "2026-10-27T22:05:05Z",
  "source": "https://2026.hanadiv.org/",
  "name": "אירועי דרך הנדיב 2026",
  "festival": {
@@ -457,7 +457,7 @@
    "access": "נגיש · יש חניה · בפנים",
    "seats": 300,
    "avail": {
-    "availableSeats": 35,
+    "availableSeats": 33,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -496,7 +496,7 @@
    "access": "יש חניה · בפנים",
    "seats": 41,
    "avail": {
-    "availableSeats": 15,
+    "availableSeats": 14,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -597,7 +597,7 @@
    "access": "בפנים",
    "seats": 128,
    "avail": {
-    "availableSeats": 12,
+    "availableSeats": 11,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -765,7 +765,7 @@
    "access": "יש חניה · ידידותי לחיות · בחוץ",
    "seats": 49,
    "avail": {
-    "availableSeats": 33,
+    "availableSeats": 32,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -909,7 +909,7 @@
    "access": "יש חניה · בפנים",
    "seats": 49,
    "avail": {
-    "availableSeats": 20,
+    "availableSeats": 18,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -943,7 +943,7 @@
    "access": "נגיש · יש חניה · בחוץ",
    "seats": 20,
    "avail": {
-    "availableSeats": 13,
+    "availableSeats": 12,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -1446,7 +1446,7 @@
    "access": "נגיש · בחוץ",
    "seats": 120,
    "avail": {
-    "availableSeats": 107,
+    "availableSeats": 109,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -1775,7 +1775,7 @@
    "avail": {
     "availableSeats": 0,
     "isFull": true,
-    "hasWaitingList": true,
+    "hasWaitingList": false,
     "registrationOpen": true
    }
   },
@@ -2274,7 +2274,7 @@
    "avail": {
     "availableSeats": 0,
     "isFull": true,
-    "hasWaitingList": false,
+    "hasWaitingList": true,
     "registrationOpen": true
    }
   },
@@ -2310,7 +2310,7 @@
    "access": "יש חניה · בפנים",
    "seats": 45,
    "avail": {
-    "availableSeats": 13,
+    "availableSeats": 12,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -2851,7 +2851,7 @@
    "access": "נגיש · יש חניה · בפנים",
    "seats": 25,
    "avail": {
-    "availableSeats": 12,
+    "availableSeats": 10,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -3347,7 +3347,7 @@
    "access": "נגיש · יש חניה · ידידותי לחיות",
    "seats": 130,
    "avail": {
-    "availableSeats": 102,
+    "availableSeats": 101,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -3386,7 +3386,7 @@
    "access": "נגיש · יש חניה · ידידותי לחיות",
    "seats": 300,
    "avail": {
-    "availableSeats": 114,
+    "availableSeats": 113,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -3510,7 +3510,7 @@
    "access": "נגיש · יש חניה · בפנים",
    "seats": 101,
    "avail": {
-    "availableSeats": 22,
+    "availableSeats": 20,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -4667,7 +4667,7 @@
    "address": "נטע 6 · הסלון של אודליה",
    "seats": 59,
    "avail": {
-    "availableSeats": 12,
+    "availableSeats": 11,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -4900,7 +4900,7 @@
    "access": "נגיש · בפנים",
    "seats": 64,
    "avail": {
-    "availableSeats": 55,
+    "availableSeats": 53,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -5211,7 +5211,7 @@
    "access": "נגיש · יש חניה · בפנים",
    "seats": 300,
    "avail": {
-    "availableSeats": 262,
+    "availableSeats": 260,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -5386,7 +5386,7 @@
    "access": "נגיש · יש חניה",
    "seats": 144,
    "avail": {
-    "availableSeats": 96,
+    "availableSeats": 95,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -5467,7 +5467,7 @@
    "access": "נגיש",
    "seats": 60,
    "avail": {
-    "availableSeats": 19,
+    "availableSeats": 17,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -6383,7 +6383,7 @@
    "access": "נגיש · יש חניה · בפנים",
    "seats": 300,
    "avail": {
-    "availableSeats": 283,
+    "availableSeats": 279,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -7096,7 +7096,7 @@
    "access": "נגיש · יש חניה · ידידותי לחיות · בחוץ",
    "seats": 80,
    "avail": {
-    "availableSeats": 28,
+    "availableSeats": 16,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -7137,7 +7137,7 @@
    "avail": {
     "availableSeats": 0,
     "isFull": true,
-    "hasWaitingList": false,
+    "hasWaitingList": true,
     "registrationOpen": true
    }
   },
@@ -7417,7 +7417,7 @@
    "access": "יש חניה · בחוץ",
    "seats": 19,
    "avail": {
-    "availableSeats": 2,
+    "availableSeats": 1,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -7680,7 +7680,7 @@
    "access": "נגיש · יש חניה · בחוץ",
    "seats": 300,
    "avail": {
-    "availableSeats": 285,
+    "availableSeats": 284,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -7858,7 +7858,7 @@
    "access": "נגיש · יש חניה",
    "seats": 300,
    "avail": {
-    "availableSeats": 106,
+    "availableSeats": 104,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -7926,7 +7926,7 @@
    "access": "נגיש · יש חניה · בפנים",
    "seats": 300,
    "avail": {
-    "availableSeats": 163,
+    "availableSeats": 160,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -8099,7 +8099,7 @@
    "access": "יש חניה · בחוץ",
    "seats": 71,
    "avail": {
-    "availableSeats": 39,
+    "availableSeats": 37,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -8153,7 +8153,7 @@
    "date": "2026-10-31",
    "hour": "16:00",
    "audience": "רק למבוגרים",
-   "note": "* סוד יכולת הבריאה של הרימון: המיסטיקה של עוררות החושניות, זרימת חיים חיונית ושפע. * הפרדוקס הקבלי של הזרעים: פרספקטיבה חדשה על \"פוטנציאל\" ואיך הוא מתממש. * קריסת הזמן הליניארי: התחברות לציר זמן פנימי לקפיצת זמן שיאיץ את הגשמת הרצונות שלך בקלות ובחן. * טקס בריאה מקודש: כוונות משותפות ומוזיקה שייתנו צורה פיזית למה שמחכה להוולד בשבילך השנה. מָה לְהָבִיא: 2 רימונים, ריח טוב של שמן אתרי או בשם טבעי כלי הקשה/פעמונים/חליל/מפוחית. לו\"ז: 13:30 התכנסות. 14:00 בדיוק - תחילת הטקס שימו לב: כדי לשמור על קדושה ומיקוד המרחב, לא ניתן יהיה להיכנס לאחר תחילת הטקס ב-14:00. מחכה לראות אתכן.ם. פרנסואז✨ נ.ב : אם תוכלו להביאו כרית או כישא קטן איתכם זה יהיה נפלא! · טקס יצירת מציאות דרך הזכרות חוכמה עתיקה חדשה · בהנחיית פרנסואז מיקאל",
+   "note": "* סוד יכולת הבריאה של הרימון: המיסטיקה של עוררות החושניות, זרימת חיים חיונית ושפע. * הפרדוקס הקבלי של הזרעים: פרספקטיבה חדשה על \"פוטנציאל\" ואיך הוא מתממש. * קריסת הזמן הליניארי: התחברות לציר זמן פנימי לקפיצת זמן שיאיץ את הגשמת הרצונות שלך בקלות ובחן. * טקס בריאה מקודש: כוונות משותפות ומוזיקה שייתנו צורה פיזית למה שמחכה להוולד בשבילך השנה. מָה לְהָבִיא: 2 רימונים, ריח טוב של שמן אתרי או בשם טבעי כלי הקשה/פעמונים/חליל/מפוחית. לו\"ז: 15:30 התכנסות. 16:00 בדיוק - תחילת הטקס שימו לב: כדי לשמור על קדושה ומיקוד המרחב, לא ניתן יהיה להיכנס לאחר תחילת הטקס ב-14:00. מחכה לראות אתכן.ם. פרנסואז✨ נ.ב : אם תוכלו להביאו כרית או כישא קטן איתכם זה יהיה נפלא! · טקס יצירת מציאות דרך הזכרות חוכמה עתיקה חדשה · בהנחיית פרנסואז מיקאל",
    "url": "https://2026.hanadiv.org/event-page/2245",
    "links": [
     {
@@ -8180,7 +8180,7 @@
    "access": "נגיש · יש חניה · בפנים",
    "seats": 40,
    "avail": {
-    "availableSeats": 4,
+    "availableSeats": 3,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -8469,7 +8469,7 @@
    "access": "נגיש · יש חניה · בפנים",
    "seats": 300,
    "avail": {
-    "availableSeats": 258,
+    "availableSeats": 257,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -8711,7 +8711,7 @@
    "address": "הגאון 11 · סלון בבית פרטי",
    "seats": 20,
    "avail": {
-    "availableSeats": 17,
+    "availableSeats": 15,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -8745,7 +8745,7 @@
    "access": "נגיש · יש חניה · ידידותי לחיות",
    "seats": 300,
    "avail": {
-    "availableSeats": 120,
+    "availableSeats": 119,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -8890,7 +8890,7 @@
    "access": "נגיש · יש חניה · בפנים",
    "seats": 300,
    "avail": {
-    "availableSeats": 8,
+    "availableSeats": 7,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -8999,7 +8999,7 @@
    "access": "נגיש · יש חניה · בחוץ",
    "seats": 200,
    "avail": {
-    "availableSeats": 166,
+    "availableSeats": 165,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -9200,7 +9200,7 @@
    "access": "נגיש · יש חניה · ידידותי לחיות",
    "seats": 300,
    "avail": {
-    "availableSeats": 105,
+    "availableSeats": 104,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -9325,7 +9325,7 @@
    "access": "נגיש · יש חניה",
    "seats": 300,
    "avail": {
-    "availableSeats": 288,
+    "availableSeats": 287,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
@@ -9368,7 +9368,7 @@
    "access": "נגיש · יש חניה · ידידותי לחיות",
    "seats": 300,
    "avail": {
-    "availableSeats": 118,
+    "availableSeats": 117,
     "isFull": false,
     "hasWaitingList": false,
     "registrationOpen": true
